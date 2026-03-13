@@ -13,7 +13,7 @@ HISTORY_FILE = "history.txt"
 os.makedirs(FOLDER_NAME, exist_ok=True)
 #print("Folders ready!")
 
-KEY = "t10fzEybF8-tWsLAyzMovgFAlJkQY5kOCh1gLekyfqQ"
+KEY = api_key
 
 def search_wallpaper(topic):
     URL = f'https://api.unsplash.com/search/photos/?query={topic}&client_id={KEY}'
